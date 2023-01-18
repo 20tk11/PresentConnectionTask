@@ -36,10 +36,11 @@ export default class CommonStore {
             const variables = await agent.Countries.get()
             variables.forEach(element => {
                 this.setCountry(element.country, element);
-                if (this.countriesLoaded) {
+                if (!this.countriesLoaded) {
                     this.setCountryOption(element);
                 }
             })
+            console.log(this.countriesOptions)
             this.setCountriesLoaded(true);
             this.setLoadingInitial(false);
         } catch (error) {
