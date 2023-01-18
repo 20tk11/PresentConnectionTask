@@ -29,7 +29,7 @@ function App() {
   return (
     <Fragment>
       <NavBar />
-      <div style={{ marginBottom: "15px", minHeight: (windowDimensions.height - 383) + "px" }}>
+      <div style={{ marginBottom: "15px", minHeight: (windowDimensions.height - 359) + "px" }}>
         <Container fluid textAlign='center'>
 
           <Outlet />
