@@ -3,6 +3,8 @@
 To reach the form need to navigate through Bill button on navbar, from there by submitting Form invoice page will be submitted
 
 Back-End:
+  * Commands to launch:
+    * dotnet watch run (VS code)
   * .Net with two api endpoints:
     * CountriesGet - returns country list
     * TaxGet - get PVM value
@@ -10,6 +12,9 @@ Back-End:
   * Country and Tax logic is in Repository
   
 Front-End:
+  * Commands to launch:
+    * npm install
+    * npm start
   * ReactJS, Typescript
   * Used Semantic-UI framework for styling
   * Input Form
