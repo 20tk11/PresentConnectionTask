@@ -42,6 +42,6 @@ Case(Supplier is PVM, Client lives in EU and is PVM = PVM is 0)
 Case(Supplier is PVM, Client lives in EU and is not PVM = PVM is x)
 ![image](https://user-images.githubusercontent.com/85391870/213112259-f17adb40-fc70-4962-b4a7-ef5f67c44762.png)
 
-Case(Supplier is not PVM)
+Case(Supplier is not PVM, PVM is 0)
 ![image](https://user-images.githubusercontent.com/85391870/213112471-cd157e88-eac4-415f-951a-9e66fbd73a4b.png)
 
