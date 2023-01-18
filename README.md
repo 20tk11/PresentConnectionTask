@@ -4,7 +4,7 @@ To reach the form need to navigate through Bill button on navbar, from there by 
 
 Back-End:
   * Commands to launch:
-    * dotnet watch run (VS code)
+    * on VS code: dotnet watch run 
   * .Net with two api endpoints:
     * CountriesGet - returns country list
     * TaxGet - get PVM value
