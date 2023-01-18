@@ -1,5 +1,7 @@
 ## PresentConnectionTask
 
+To reach the form need to navigate through Bill button on navbar, from there by submitting Form invoice page will be submitted
+
 Back-End:
   * .Net with two api endpoints:
     * CountriesGet - returns country list
@@ -22,3 +24,9 @@ Testing:
     * Tests for countries and tax logic
 
 # Page Screenshots
+
+Form Page
+![image](https://user-images.githubusercontent.com/85391870/213109724-739fa061-30cc-4875-be82-a70b205b2ddb.png)
+
+Invoice Page
+![image](https://user-images.githubusercontent.com/85391870/213110346-e5a9922e-6ddf-404b-b896-ab37261cee0e.png)
