@@ -1,0 +1,9 @@
+.ui.segment{
+    padding: 0px;
+    border-radius: 0px;
+  }
+  html,
+  body{
+  width:100%;
+  overflow-x:hidden;
+  }
