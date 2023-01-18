@@ -18,6 +18,7 @@ Front-End:
     * Service : Name, Price
  * Invoice page:
     * Present Input values and the PVM, with Total (PVM + Price)
+ * Form, Invoice Pages and Footer are Reactive.
     
 Testing: 
   * XUnit
