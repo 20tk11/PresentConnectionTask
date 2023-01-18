@@ -23,7 +23,6 @@ export default observer(function BillForm() {
             loadCountries();
 
         }
-        console.log(countriesOptions[0])
     }, [loadCountries, countryRegistry.size, countriesOptions])
 
 
@@ -38,7 +37,6 @@ export default observer(function BillForm() {
         serviceprice: 0,
     });
     function HandleResult() {
-        console.log("Submit", getTaxData());
         if (taxData.clientcountry !== '' && taxData.suppliercountry !== '') {
             getInvoice(getTaxData()).then(() => navigate(`/invoice`));
 
@@ -73,7 +71,6 @@ export default observer(function BillForm() {
     }
     function handleSelectChange(event: SyntheticEvent<HTMLElement, Event>, data: DropdownProps) {
         const { name, value } = data;
-        console.log(name, value);
         setTaxData({ ...taxData, [name]: value })
     }
     return (

@@ -34,7 +34,6 @@ export default class CommonStore {
                 this.setCountriesLoaded(false);
             }
             const variables = await agent.Countries.get()
-            console.log(variables);
             variables.forEach(element => {
                 this.setCountry(element.country, element);
                 if (this.countriesLoaded) {
@@ -42,7 +41,6 @@ export default class CommonStore {
                 }
             })
             this.setCountriesLoaded(true);
-            console.log(this.countriesOptions);
             this.setLoadingInitial(false);
         } catch (error) {
             console.log(error);
@@ -55,8 +53,6 @@ export default class CommonStore {
             this.setTaxData(data);
             const variables = await agent.Tax.post(data)
             this.invoiceData = variables;
-            console.log(this.taxData);
-            console.log(this.invoiceData);
             this.setLoadingInitial(false);
         } catch (error) {
             console.log(error);
